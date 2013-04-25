@@ -1,0 +1,75 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+architecture reg_testbench of testbench is
+
+	-- Importation du composant registre
+	--
+	component registre_16_test
+		--generic(N : integer := 16);
+		port(Tinput   : IN  unsigned(15 downto 0);
+			 Treset   : IN  bit;
+			 Thorloge : in  bit;
+			 Twrite   : in  bit;
+			 Toutput  : OUT unsigned(15 downto 0));
+	end component registre_16_test;
+	
+	signal Sinput : unsigned (15 downto 0);
+	signal Sreset : bit;
+	signal Shorloge : bit;
+	signal Swrite : bit;
+	signal Soutput : unsigned (15 downto 0);
+	
+	for dut : registre_16_test use entity
+		work.registre_16(archi_registre) 
+		--generic map (N=>16)
+		PORT map
+		(input=>Tinput, reset=>Treset, horloge=>Thorloge, write => Twrite, output=>Toutput);
+	
+begin
+
+	dut : registre_16_test
+		--generic map(N => 16)
+		port map(Tinput   => Sinput,
+			     Treset   => Sreset,
+			     Thorloge => Shorloge,
+			     Twrite   => Swrite,
+			     Toutput  => Soutput);
+	
+		-- Generation d'une horloge
+	horloge : PROCESS                   -- signal périodique
+	BEGIN                               -- exécution séquentielle dans le corps
+		Shorloge <= '0';
+		WAIT FOR 50 ns;
+		Shorloge <= '1';
+		WAIT FOR 50 ns;                 -- horloge asymétrique
+		Shorloge <= '0';
+		WAIT FOR 50 ns;                 -- horloge asymétrique
+		Shorloge <= '1';
+		WAIT FOR 50 ns;                 -- horloge asymétrique
+		Shorloge <= '0';
+		WAIT FOR 50 ns;                 -- horloge asymétrique
+		Shorloge <= '1';
+		WAIT FOR 50 ns;                 -- horloge asymétrique
+		wait;
+	END PROCESS;
+	
+	process
+	BEGIN
+		Sinput <= "1111000011110000";
+		Sreset  <= '1';
+		Swrite <= '1';
+
+		WAIT FOR 51 ns;
+		ASSERT Soutput = "1111000011110000" REPORT "Erreur1" SEVERITY error;
+		
+		Sreset  <= '1';
+		Swrite <= '0';
+
+		WAIT FOR 50 ns;
+		ASSERT Soutput = "1111000011110000" REPORT "Erreur1" SEVERITY error;
+		
+		wait;
+	end process;
+	
+end architecture reg_testbench;

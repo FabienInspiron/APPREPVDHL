@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;multiplexeur/test_bench.vhd&apos; to &apos;testbench.vhd&apos;" description="Rename resource &apos;test_bench.vhd&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="test_bench.vhd" name="testbench.vhd" stamp="1362577672728" updateReferences="true"/>
+</session>

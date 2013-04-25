@@ -1,0 +1,19 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+ARCHITECTURE archi_registre OF registre_16 IS
+	
+BEGIN
+	PROCESS (h, R)
+	BEGIN
+		IF R = '0' THEN 
+			boucle : FOR i IN 0 TO N LOOP 
+					Q <= "0000000000000000";
+				END LOOP boucle;
+		ElSE IF h'event AND h='1' THEN
+			Q <= I;
+		END IF;
+		
+	END PROCESS;
+			
+END archi_registre;

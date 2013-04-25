@@ -1,0 +1,4 @@
+work, testbench.vhd
+work, entity_alu.vhd
+work, archi_alu.vhd
+work, testbench_alu.vhd

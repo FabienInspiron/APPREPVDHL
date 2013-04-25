@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+ARCHITECTURE archi_registre OF registre IS
+	
+BEGIN
+	PROCESS (H, R)
+	BEGIN
+		IF h'event AND h='1' THEN
+			Q <= Q;
+		END IF;
+		
+		IF h'event AND h='0' THEN
+			IF S = 0 AND S = 0 THEN
+			END IF
+		END IF;
+
+		END PROCESS;
+			
+END archi_registre;

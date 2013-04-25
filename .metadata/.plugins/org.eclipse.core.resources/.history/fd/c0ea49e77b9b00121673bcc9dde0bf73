@@ -1,0 +1,18 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+entity MyGenericEntity is
+	generic(N : integer :=16);
+port
+--default value is set to 16
+(....);
+end MyGenericEntity;
+
+
+ENTITY registre_16 IS
+	generic(N : integer :=16);
+	PORT(I 	: IN unsigned (15 downto 0);
+		 R, H : IN bit;
+		 Q    : OUT unsigned (15 downto 0));
+		 
+END registre_16;

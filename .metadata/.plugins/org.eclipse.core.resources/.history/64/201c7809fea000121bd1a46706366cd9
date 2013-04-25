@@ -1,0 +1,13 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+architecture archi_alu of alu is
+	
+begin
+	association : with code_op select
+		output <=
+			op1 + op2 when "000",
+			
+			op1 - op2 when others;
+		
+end architecture archi_alu;

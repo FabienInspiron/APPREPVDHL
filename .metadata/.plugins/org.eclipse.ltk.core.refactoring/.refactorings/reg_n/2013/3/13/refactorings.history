@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;reg_16/registre.vhd&apos; to &apos;archi_registre.vhd&apos;" description="Rename resource &apos;registre.vhd&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="registre.vhd" name="archi_registre.vhd" stamp="1364388486685" updateReferences="true"/>
+</session>

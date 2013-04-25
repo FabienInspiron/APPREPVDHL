@@ -1,0 +1,60 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+ARCHITECTURE add_test_bench OF testbench IS
+	-- décldéclare le composant à utiliser
+
+	COMPONENT add_test IS
+		PORT(
+			TA   : IN bit;
+			TB   : IN bit;
+			Tcin : IN bit;
+			TS   : OUT bit;
+			TCy  : OUT bit
+		);
+	END COMPONENT;
+
+	SIGNAL SA   : bit ;
+	SIGNAL SB   : bit ;
+	SIGNAL Scin : bit ;
+	SIGNAL SS   : bit ;
+	SIGNAL SCy  : bit ;
+	
+	FOR dut : add_test USE ENTITY 
+		work.adder(archi_add) 
+	PORT MAP(A => TA, B => TB, Cin => TCin, S => TS, Cy => TCy);
+
+BEGIN
+	-- instanciation de composants
+	dut : add_test
+		PORT MAP(SA, SB, Scin, SS, SCy);
+
+	PROCESS
+	BEGIN
+		SA <= '0';
+		SB <= '1';
+		Scin <= '0';
+
+		WAIT FOR 50 ns;
+		ASSERT SS = '1' REPORT "Erreur1" SEVERITY error;
+
+		SA <= '1';
+		SB <= '1';
+		Scin <= '0';
+
+		WAIT FOR 50 ns;
+		ASSERT SS = '0' REPORT "Erreur2" SEVERITY error;
+		ASSERT SCy = '1' REPORT "Erreur3" SEVERITY error;
+		
+		SA <= '1';
+		SB <= '1';
+		Scin <= '1';
+
+		WAIT FOR 50 ns;
+		ASSERT SS = '0' REPORT "Erreur4" SEVERITY error;
+		ASSERT SS = '0' REPORT "Erreur4" SEVERITY error;
+		
+		WAIT;
+	END PROCESS;
+
+END add_test_bench;

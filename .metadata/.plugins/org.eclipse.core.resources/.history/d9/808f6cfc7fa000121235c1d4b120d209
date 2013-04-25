@@ -1,0 +1,8 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+architecture archi_alu of alu is
+	
+begin
+	
+end architecture archi_alu;

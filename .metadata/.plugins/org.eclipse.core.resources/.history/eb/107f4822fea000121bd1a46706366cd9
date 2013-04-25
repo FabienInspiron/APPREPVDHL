@@ -1,0 +1,33 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+architecture archi_alu of alu is
+	
+begin
+/*	
+	if code_op = "000" then -- Addition
+		output <= op1 + op2;
+		
+		else if code_op = "001" then -- soustraction
+			output <= op1 - op2;
+			
+			else if code_op = "010" then -- Not
+				output <= not(op1);
+				
+				else if code_op = "011" then -- Multiplication
+					output <= op1 * op2;
+					
+				end if;
+			end if;
+		end if;
+	end if;
+*/
+
+	association : with code_op select
+		output <=
+			op1 + op2 when "000",
+			op1 - op2 when "001",
+			not(op1) when "001",
+			
+		
+end architecture archi_alu;

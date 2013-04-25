@@ -1,0 +1,9 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+ENTITY registre_16 IS
+	PORT(I 	: IN unsigned (15 downto 0);
+		 R, H : IN bit;
+		 Q    : OUT unsigned (15 downto 0));
+		 
+END registre_16;

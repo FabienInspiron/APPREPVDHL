@@ -1,0 +1,10 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+entity alu is
+	port (
+		code_op : in unsigned (2 downto 0);
+		op1		: in unsigned (15 downto 0);
+		op2		: in unsigned (15 downto 0);
+	);
+end entity alu;

@@ -1,0 +1,6 @@
+work, testbench.vhd
+work, entity_add.vhd
+work, entity_add_16bits.vhd
+work, architecture_add.vhd
+work, architecture_add_16bit.vhd
+work, testbench_add16.vhd

@@ -1,0 +1,91 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+architecture archi_inst_fetch of instruction_fetch is
+
+	-- Inclusion du multiplexeur
+	--
+	component multiplexeur
+		port(sel  : IN  unsigned(1 downto 0);
+			 ent1 : IN  unsigned(15 downto 0);
+			 ent2 : IN  unsigned(15 downto 0);
+			 ent3 : IN  unsigned(15 downto 0);
+			 ent4 : IN  unsigned(15 downto 0);
+			 sort : OUT unsigned(15 downto 0));
+	end component multiplexeur;
+	
+	-- Inclusion du registre 16 bits
+	--
+	component registre_16
+		generic(N : integer := 16);
+		port(input   : IN  unsigned(N - 1 downto 0);
+			 reset   : IN  bit;
+			 horloge : in  bit;
+			 write   : in  bit;
+			 output  : OUT unsigned(N - 1 downto 0));
+	end component registre_16;
+	
+	
+	-- Inclusion du instruction memory
+	--
+	component instruction_memory
+		port(address     : in  Std_logic_vector(7 downto 0);
+			 instruction : out Std_logic_vector(15 downto 0));
+	end component instruction_memory;
+	
+	-- Inclusion du programme counter
+	--
+	component program_counter
+		port(clk    : in  bit;
+			 input  : in  unsigned(7 downto 0);
+			 load   : in  bit;
+			 stall  : in  bit;
+			 reset  : in  bit;
+			 output : out unsigned(7 downto 0));
+	end component program_counter;
+	
+	begin
+	
+		-- Création des cables de liaison
+		SIGNAL sig : unsigned (7 downto 0);
+		SIGNAL sig2 : unsigned (15 downto 0);
+		SIGNAL sig3 : unsigned (7 downto 0);
+		
+		-- Instanciation des entitées
+		--
+		
+		-- Multiplexeur
+		multiplex : multiplexeur
+			port map(sel  => sel,
+				     ent1 => ent1,
+				     ent2 => ent2,
+				     ent3 => ent3,
+				     ent4 => ent4,
+				     sort => sig3); -- sortie vers le PC
+		
+		
+		-- Program counter
+		pc : program_counter
+			port map(clk    => clk,
+				     input  => sig3, -- Entré depuis le PC
+				     load   => load,
+				     stall  => stall,
+				     reset  => reset,
+				     output => sig); -- Sortie vers Instruction memory
+				     
+		-- Registre 16 bits
+		reg : registre_16
+			generic map(N => 16)
+				port map(clk    : in  bit;
+				 input  : in  unsigned(7 downto 0);
+				 load   : in  bit;
+				 stall  : in  bit;
+				 reset  : in  bit;
+				 output : out unsigned(7 downto 0);
+				     
+		-- Instruction memory
+		instmem : instruction_memory
+			port map(address => sig, -- entré depuis PC
+				     instruction => sig2); -- sortie vers instruction register
+
+END archi_inst_fetch;

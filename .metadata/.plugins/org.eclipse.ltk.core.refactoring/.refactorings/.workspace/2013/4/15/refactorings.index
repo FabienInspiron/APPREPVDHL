@@ -1,0 +1,6 @@
+1365496971519	Rename resource 'Instruction_memory'
+1365498671603	Rename resource 'reg_16'
+1365498936893	Delete resource 'Instruction_fetch/architecture_reg16.vhd'
+1365498941251	Delete resource 'Instruction_fetch/entity_reg16.vhd'
+1365500020617	Delete resource 'Instruction_fetch/entity_multiplexeur.vhd'
+1365500023340	Delete resource 'Instruction_fetch/architecture_multiplexeur.vhd'

@@ -1,0 +1,21 @@
+ARCHITECTURE counter_beh OF counter IS
+SIGNAL etat : unsigned(c'RANGE);
+g
+(
+);
+BEGIN
+PROCESS (h,reset)
+BEGIN
+IF reset = '1' THEN
+etat <= (others => '0');
+ELSIF h'event AND h='1' THEN
+etat <= etat + 1;
+END IF;
+;
+END PROCESS;
+sortie: FOR i IN etat'RANGE GENERATE
+c(i) <= etat(i);
+( )
+( );
+END GENERATE;
+END counter_beh;

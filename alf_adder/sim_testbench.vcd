@@ -1,0 +1,42 @@
+$date
+  Mon Apr  8 18:24:10 2013
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 1 ! si1 $end
+$var reg 1 " si2 $end
+$var reg 1 # ss $end
+$var reg 1 $ sc $end
+$scope module dut $end
+$var reg 1 % a $end
+$var reg 1 & b $end
+$var reg 1 ' s $end
+$var reg 1 ( cy $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+#50000000
+1!
+1#
+1%
+1'
+#100000000
+1"
+0#
+1$
+1&
+0'
+1(
+#150000000

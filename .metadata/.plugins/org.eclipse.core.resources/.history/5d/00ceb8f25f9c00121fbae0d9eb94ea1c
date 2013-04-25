@@ -1,0 +1,58 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+architecture archi_inst_fetch of instruction_fetch is
+
+	-- Inclusion du multiplexeur
+	--
+	component multiplexeur
+		port(sel  : IN  unsigned(1 downto 0);
+			 ent1 : IN  unsigned(15 downto 0);
+			 ent2 : IN  unsigned(15 downto 0);
+			 ent3 : IN  unsigned(15 downto 0);
+			 ent4 : IN  unsigned(15 downto 0);
+			 sort : OUT unsigned(15 downto 0));
+	end component multiplexeur;
+	
+	-- Inclusion du registre 16 bits
+	--
+	component registre_16
+		generic(N : integer := 16);
+		port(I    : IN  unsigned(N downto 0);
+			 R, H : IN  bit;
+			 Q    : OUT unsigned(N downto 0));
+	end component registre_16;
+	
+	
+	-- Inclusion du instruction memory
+	--
+	component instruction_memory
+		port(address     : in  Std_logic_vector(7 downto 0);
+			 instruction : out Std_logic_vector(15 downto 0));
+	end component instruction_memory;
+	
+	-- Inclusion du programme counter
+	--
+	component program_counter
+		port(clk    : in  bit;
+			 input  : in  unsigned(7 downto 0);
+			 load   : in  bit;
+			 stall  : in  bit;
+			 reset  : in  bit;
+			 output : out unsigned(7 downto 0));
+	end component program_counter;
+	
+	begin
+	
+		-- Instanciation des entitées
+		multiplex : multiplexeur
+			port map(sel  => sel,
+				     ent1 => ent1,
+				     ent2 => ent2,
+				     ent3 => ent3,
+				     ent4 => ent4,
+				     sort => sort);
+				     
+		
+
+END archi_inst_fetch;

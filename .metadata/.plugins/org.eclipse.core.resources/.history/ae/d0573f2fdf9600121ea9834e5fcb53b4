@@ -1,0 +1,7 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+ARCHITECTURE archi_registre OF registre IS
+	BEGIN 
+	PROCESS (h, reset)
+END archi_registre;

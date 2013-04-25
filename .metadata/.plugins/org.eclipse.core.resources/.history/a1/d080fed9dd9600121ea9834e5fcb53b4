@@ -1,0 +1,5 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+ARCHITECTURE archi_registre OF registre IS
+END archi_registre;

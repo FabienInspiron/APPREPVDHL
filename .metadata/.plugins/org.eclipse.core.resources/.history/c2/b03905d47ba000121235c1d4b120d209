@@ -1,0 +1,24 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+ARCHITECTURE archi_registre OF registre_16 IS
+	signal octet’RANGE : __datatype;
+	
+BEGIN
+	PROCESS(horloge, reset)
+	BEGIN
+		IF horloge'event AND horloge = '0' AND reset = '0' THEN
+			boucle : FOR i IN 0 TO N LOOP
+				output <= signed(octet’RANGE):=(0=>'1',OTHERS=>'0');
+			END LOOP boucle;
+		ElSE
+			IF horloge'event AND horloge = '1' THEN
+				if write='1' and write = '1' then
+					output <= input;
+				end if;
+			END IF;
+		END IF;
+
+	END PROCESS;
+
+END archi_registre;

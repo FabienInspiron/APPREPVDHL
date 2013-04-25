@@ -1,0 +1,4 @@
+work, entity_PC.vhd
+work, testbench.vhd
+work, archi_PC.vhd
+work, testbench_pc.vhd

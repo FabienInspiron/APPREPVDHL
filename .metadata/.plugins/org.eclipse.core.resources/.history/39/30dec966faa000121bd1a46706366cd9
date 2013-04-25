@@ -1,0 +1,8 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+architecture alu_test_bench of entityName is
+	
+begin
+	
+end architecture alu_test_bench;

@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="3" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1020" x="114" y="46">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="48" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="48" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.sigasi.hdt.vhdl.Vhdl" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1364392623865" focus="true" label="Workspace - VHDL">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.internal.EditorStack@16bbdcd1" ratio="0.5640373" ratioLeft="665" ratioRight="514" relationship="2" relative="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="4"/>
+<part id="2"/>
+<part id="3"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="archi_PC.vhd" partName="archi_PC.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/Program_counter/archi_PC.vhd" title="archi_PC.vhd" tooltip="Program_counter/archi_PC.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Program_counter/archi_PC.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="156" selectionTopPixel="45"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="testbench_pc.vhd" partName="testbench_pc.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/Program_counter/testbench_pc.vhd" title="testbench_pc.vhd" tooltip="Program_counter/testbench_pc.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Program_counter/testbench_pc.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="78" selectionOffset="1314" selectionTopPixel="908"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="testbench_reg.vhd" partName="testbench_reg.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/reg_n/testbench_reg.vhd" title="testbench_reg.vhd" tooltip="reg_n/testbench_reg.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/reg_n/testbench_reg.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="321" selectionOffset="845" selectionTopPixel="447"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="entity_multiplexeur.vhd" partName="entity_multiplexeur.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/multiplexeur/entity_multiplexeur.vhd" title="entity_multiplexeur.vhd" tooltip="multiplexeur/entity_multiplexeur.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/multiplexeur/entity_multiplexeur.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="test_bench_multiplexeur.vhd" partName="test_bench_multiplexeur.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/multiplexeur/test_bench_multiplexeur.vhd" title="test_bench_multiplexeur.vhd" tooltip="multiplexeur/test_bench_multiplexeur.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/multiplexeur/test_bench_multiplexeur.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="archi_imem.vhd" partName="archi_imem.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/Instruction_fetch/archi_imem.vhd" title="archi_imem.vhd" tooltip="Instruction_fetch/archi_imem.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Instruction_fetch/archi_imem.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="417" selectionTopPixel="41"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="archi_insfetch.vhd" partName="archi_insfetch.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/Instruction_fetch/archi_insfetch.vhd" title="archi_insfetch.vhd" tooltip="Instruction_fetch/archi_insfetch.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Instruction_fetch/archi_insfetch.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1122" selectionTopPixel="585"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="compilation_order.csv" partName="compilation_order.csv" path="/home/belli/Polytech/S8/Architecture machine/workspace/Instruction_fetch/compilation_order.csv" title="compilation_order.csv" tooltip="Instruction_fetch/compilation_order.csv" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Instruction_fetch/compilation_order.csv"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="testbench_IF.vhd" partName="testbench_IF.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/Instruction_fetch/testbench_IF.vhd" title="testbench_IF.vhd" tooltip="Instruction_fetch/testbench_IF.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Instruction_fetch/testbench_IF.vhd"/>
+<editorState selectionHorizontalPixel="103" selectionLength="0" selectionOffset="1250" selectionTopPixel="701"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="testbench.vhd" partName="testbench.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/Instruction_fetch/testbench.vhd" title="testbench.vhd" tooltip="Instruction_fetch/testbench.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Instruction_fetch/testbench.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="test_bench_alf_adder.vhd" partName="test_bench_alf_adder.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/alf_adder/test_bench_alf_adder.vhd" title="test_bench_alf_adder.vhd" tooltip="alf_adder/test_bench_alf_adder.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/alf_adder/test_bench_alf_adder.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="347" selectionTopPixel="0"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="architecture_add.vhd" partName="architecture_add.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/add/architecture_add.vhd" title="architecture_add.vhd" tooltip="add/architecture_add.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/add/architecture_add.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="entity_add.vhd" partName="entity_add.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/add/entity_add.vhd" title="entity_add.vhd" tooltip="add/entity_add.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/add/entity_add.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="testbench_add.vhd" partName="testbench_add.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/add/testbench_add.vhd" title="testbench_add.vhd" tooltip="add/testbench_add.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/add/testbench_add.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="196" selectionTopPixel="0"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="archi_banc.vhd" partName="archi_banc.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/banc_registre/archi_banc.vhd" title="archi_banc.vhd" tooltip="banc_registre/archi_banc.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/banc_registre/archi_banc.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="462" selectionTopPixel="55"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="architecture_reg_n.vhd" partName="architecture_reg_n.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/banc_registre/architecture_reg_n.vhd" title="architecture_reg_n.vhd" tooltip="banc_registre/architecture_reg_n.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/banc_registre/architecture_reg_n.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="40" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.sigasi.hdt.vhdl.Vhdl" name="testbench_banc.vhd" partName="testbench_banc.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/banc_registre/testbench_banc.vhd" title="testbench_banc.vhd" tooltip="banc_registre/testbench_banc.vhd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/banc_registre/testbench_banc.vhd"/>
+<editorState selectionHorizontalPixel="70" selectionLength="0" selectionOffset="1932" selectionTopPixel="684"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="entity_PC.vhd" partName="entity_PC.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/Program_counter/entity_PC.vhd" title="entity_PC.vhd" tooltip="Program_counter/entity_PC.vhd" workbook="org.eclipse.ui.internal.EditorStack@16bbdcd1">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Program_counter/entity_PC.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="74" selectionTopPixel="0"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="entity_insfetch.vhd" partName="entity_insfetch.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/Instruction_fetch/entity_insfetch.vhd" title="entity_insfetch.vhd" tooltip="Instruction_fetch/entity_insfetch.vhd" workbook="org.eclipse.ui.internal.EditorStack@16bbdcd1">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Instruction_fetch/entity_insfetch.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="148" selectionTopPixel="0"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="archi_PC.vhd" partName="archi_PC.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/Instruction_fetch/archi_PC.vhd" title="archi_PC.vhd" tooltip="Instruction_fetch/archi_PC.vhd" workbook="org.eclipse.ui.internal.EditorStack@16bbdcd1">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Instruction_fetch/archi_PC.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="476" selectionTopPixel="0"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="archi_execute.vhd" partName="archi_execute.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/Execute/archi_execute.vhd" title="archi_execute.vhd" tooltip="Execute/archi_execute.vhd" workbook="org.eclipse.ui.internal.EditorStack@16bbdcd1">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Execute/archi_execute.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="975" selectionTopPixel="837"/>
+</editor>
+<editor id="com.sigasi.hdt.vhdl.Vhdl" name="entity_banc.vhd" partName="entity_banc.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/banc_registre/entity_banc.vhd" title="entity_banc.vhd" tooltip="banc_registre/entity_banc.vhd" workbook="org.eclipse.ui.internal.EditorStack@16bbdcd1">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/banc_registre/entity_banc.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="267" selectionTopPixel="0"/>
+</editor>
+<editor focus="true" id="com.sigasi.hdt.vhdl.Vhdl" name="testbench_execute.vhd" partName="testbench_execute.vhd" path="/home/belli/Polytech/S8/Architecture machine/workspace/Execute/testbench_execute.vhd" title="testbench_execute.vhd" tooltip="Execute/testbench_execute.vhd" workbook="org.eclipse.ui.internal.EditorStack@16bbdcd1">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Execute/testbench_execute.vhd"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="608" selectionTopPixel="1177"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.sigasi.hdt.vhdl.ui.hierarchy.GenericsView" partName="Generics"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="681" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="com.sigasi.hdt.vhdl.ui.hierarchy.HierarchyTreeView" partName="Hierarchy">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.sigasi.hdt.vhdl.Vhdl" activePerspective="com.sigasi.hdt.vhdl.perspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.sigasi.hdt.vhdl.ui.VhdlPerspectiveFactory" id="com.sigasi.hdt.vhdl.perspective" label="VHDL"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="com.sigasi.hdt.vhdl.ui.hierarchy.HierarchyTreeView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<new_wizard_action id="com.sigasi.hdt.vhdl.ui.wizard.VhdlNewEmptyProjectWizard"/>
+<new_wizard_action id="com.sigasi.hdt.vhdl.ui.wizard.VhdlNewFileWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.sigasi.hdt.vhdl.ui.hierarchy.GenericsView"/>
+<view id="com.sigasi.hdt.vhdl.ui.hierarchy.HierarchyTreeView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="Left">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="Left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.2" ratioLeft="202" ratioRight="808" relationship="2" relative="Left"/>
+<info folder="true" part="Bottom" ratio="0.7443609" ratioLeft="594" ratioRight="204" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="RightTop" ratio="0.75" ratioLeft="606" ratioRight="202" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.sigasi.hdt.vhdl.ui.hierarchy.GenericsView" label="Generics"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="RightBottom" ratio="0.5" ratioLeft="249" ratioRight="249" relationship="4" relative="RightTop">
+<folder activePageID="com.sigasi.hdt.vhdl.ui.hierarchy.HierarchyTreeView" appearance="2" expanded="2">
+<page content="com.sigasi.hdt.vhdl.ui.hierarchy.HierarchyTreeView" label="Hierarchy"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" path="/Program_counter/entity_PC.vhd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" path="/Instruction_fetch/archi_PC.vhd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" path="/banc_registre/entity_banc.vhd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" path="/banc_registre/archi_banc.vhd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" path="/banc_registre/architecture_reg_n.vhd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" path="/banc_registre/entity_reg_n.vhd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" path="/Execute/archi_execute.vhd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" path="/banc_registre/testbench_banc.vhd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" path="/Execute/testbench_execute.vhd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" path="/Instruction_fetch/testbench_IF.vhd"/>
+</editors>
+<item historyLabel="entity_PC.vhd" index="0">
+<position info="not_deleted" x="74" y="0"/>
+</item>
+<item historyLabel="archi_PC.vhd" index="1">
+<position info="not_deleted" x="476" y="0"/>
+</item>
+<item historyLabel="architecture_reg_n.vhd" index="4">
+<position info="not_deleted" x="0" y="40"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position/>
+</item>
+<item historyLabel="archi_execute.vhd" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position/>
+</item>
+<item historyLabel="architecture_reg_n.vhd" index="4">
+<position info="not_deleted" x="0" y="40"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position/>
+</item>
+<item historyLabel="archi_execute.vhd" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position info="not_deleted" x="523" y="0"/>
+</item>
+<item historyLabel="archi_execute.vhd" index="6">
+<position info="not_deleted" x="975" y="0"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position/>
+</item>
+<item historyLabel="architecture_reg_n.vhd" index="4">
+<position info="not_deleted" x="0" y="40"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position/>
+</item>
+<item historyLabel="entity_reg_n.vhd" index="5">
+<position info="not_deleted" x="48" y="10"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position/>
+</item>
+<item historyLabel="entity_banc.vhd" index="2">
+<position info="not_deleted" x="365" y="0"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position/>
+</item>
+<item historyLabel="entity_banc.vhd" index="2">
+<position info="not_deleted" x="221" y="0"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position/>
+</item>
+<item historyLabel="entity_banc.vhd" index="2">
+<position info="not_deleted" x="264" y="0"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position/>
+</item>
+<item historyLabel="entity_banc.vhd" index="2">
+<position info="not_deleted" x="203" y="0"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position/>
+</item>
+<item historyLabel="archi_execute.vhd" index="6">
+<position info="not_deleted" x="975" y="0"/>
+</item>
+<item historyLabel="entity_banc.vhd" index="2">
+<position info="not_deleted" x="203" y="0"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position info="not_deleted" x="322" y="0"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position info="not_deleted" x="88" y="10"/>
+</item>
+<item historyLabel="entity_reg_n.vhd" index="5">
+<position info="not_deleted" x="243" y="0"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position info="not_deleted" x="730" y="0"/>
+</item>
+<item historyLabel="archi_execute.vhd" index="6">
+<position info="not_deleted" x="975" y="0"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position info="not_deleted" x="608" y="0"/>
+</item>
+<item historyLabel="entity_banc.vhd" index="2">
+<position info="not_deleted" x="203" y="0"/>
+</item>
+<item historyLabel="archi_banc.vhd" index="3">
+<position info="not_deleted" x="462" y="0"/>
+</item>
+<item historyLabel="testbench_banc.vhd" index="7">
+<position info="not_deleted" x="1983" y="0"/>
+</item>
+<item historyLabel="entity_banc.vhd" index="2">
+<position info="not_deleted" x="0" y="40"/>
+</item>
+<item historyLabel="testbench_banc.vhd" index="7">
+<position info="not_deleted" x="1947" y="0"/>
+</item>
+<item historyLabel="entity_banc.vhd" index="2">
+<position info="not_deleted" x="267" y="0"/>
+</item>
+<item historyLabel="testbench_execute.vhd" index="8">
+<position info="not_deleted" x="2436" y="282"/>
+</item>
+<item historyLabel="testbench_banc.vhd" index="7">
+<position info="not_deleted" x="1947" y="0"/>
+</item>
+<item historyLabel="testbench_execute.vhd" index="8">
+<position info="not_deleted" x="2730" y="0"/>
+</item>
+<item historyLabel="testbench_banc.vhd" index="7">
+<position info="not_deleted" x="1455" y="7"/>
+</item>
+<item historyLabel="testbench_banc.vhd" index="7">
+<position/>
+</item>
+<item historyLabel="testbench_execute.vhd" index="8">
+<position info="not_deleted" x="608" y="0"/>
+</item>
+<item historyLabel="testbench_banc.vhd" index="7">
+<position/>
+</item>
+<item historyLabel="testbench_IF.vhd" index="9">
+<position info="not_deleted" x="1250" y="0"/>
+</item>
+<item historyLabel="testbench_banc.vhd" index="7">
+<position/>
+</item>
+<item active="true" historyLabel="testbench_banc.vhd" index="7">
+<position/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="com.sigasi.hdt.vhdl.ui.internal.fn.MarketingBoxContribution"/>
+<trimItem IMemento.internal.id="com.sigasi.hdt.vhdl.ui.tweakingservice.StatusContribution"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="testbench_execute.vhd" tooltip="Execute/testbench_execute.vhd">
+<persistable path="/Execute/testbench_execute.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="testbench_banc.vhd" tooltip="banc_registre/testbench_banc.vhd">
+<persistable path="/banc_registre/testbench_banc.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="archi_execute.vhd" tooltip="Execute/archi_execute.vhd">
+<persistable path="/Execute/archi_execute.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="entity_reg_n.vhd" tooltip="banc_registre/entity_reg_n.vhd">
+<persistable path="/banc_registre/entity_reg_n.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="architecture_reg_n.vhd" tooltip="banc_registre/architecture_reg_n.vhd">
+<persistable path="/banc_registre/architecture_reg_n.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="archi_banc.vhd" tooltip="banc_registre/archi_banc.vhd">
+<persistable path="/banc_registre/archi_banc.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="entity_banc.vhd" tooltip="banc_registre/entity_banc.vhd">
+<persistable path="/banc_registre/entity_banc.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="sim_testbench.vcd" tooltip="Instruction_fetch/sim_testbench.vcd">
+<persistable path="/Instruction_fetch/sim_testbench.vcd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="archi_PC.vhd" tooltip="Instruction_fetch/archi_PC.vhd">
+<persistable path="/Instruction_fetch/archi_PC.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="std_logic_1164.vhd" tooltip="Instruction_fetch/Common Libraries/IEEE/std_logic_1164.vhd">
+<persistable path="/Instruction_fetch/Common Libraries/IEEE/std_logic_1164.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="entity_imem.vhd" tooltip="Instruction_fetch/entity_imem.vhd">
+<persistable path="/Instruction_fetch/entity_imem.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="testbench_add.vhd" tooltip="add/testbench_add.vhd">
+<persistable path="/add/testbench_add.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="entity_add.vhd" tooltip="add/entity_add.vhd">
+<persistable path="/add/entity_add.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="architecture_add.vhd" tooltip="add/architecture_add.vhd">
+<persistable path="/add/architecture_add.vhd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.sigasi.hdt.vhdl.Vhdl" name="test_bench_alf_adder.vhd" tooltip="alf_adder/test_bench_alf_adder.vhd">
+<persistable path="/alf_adder/test_bench_alf_adder.vhd"/>
+</file>
+</mruList>
+</workbench>

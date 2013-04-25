@@ -1,0 +1,29 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+architecture reg_testbench of testbench is
+
+	-- Importation du composant registre
+	--
+	component registre_16
+		generic(N : integer := 16);
+		port(I    : IN  unsigned(N downto 0);
+			 R, H : IN  bit;
+			 Q    : OUT unsigned(N downto 0));
+	end component registre_16;
+	
+	signal SI : bit;
+	signal SR : bit;
+	signal SH : bit;
+	signal SQ : bit;
+	
+	for dut : registre_16 use entity
+		work.registre(archi_registre) PORT map
+		(S=>TI, R=>TR, H=>TH, Q=>TQ)
+	
+begin
+
+	dut : comp_reg_test
+	port map(SI,SR,SH,SQ);
+	
+end architecture reg_testbench;

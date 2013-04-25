@@ -1,0 +1,7 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+ENTITY registre IS
+	PORT(A, B, Cin : IN  bit;
+		 S, Cy     : OUT bit);
+END registre; hh

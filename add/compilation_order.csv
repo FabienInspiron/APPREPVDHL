@@ -1,0 +1,4 @@
+work, testbench.vhd
+work, entity_add.vhd
+work, architecture_add.vhd
+work, testbench_add.vhd

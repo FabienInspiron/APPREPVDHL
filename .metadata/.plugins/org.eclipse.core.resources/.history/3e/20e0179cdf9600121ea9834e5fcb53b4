@@ -1,0 +1,17 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+ARCHITECTURE archi_registre OF registre IS
+SIGNAL etat : unsigned(c'RANGE);
+
+	BEGIN 
+	PROCESS (h, reset)
+	BEGIN
+	IF reset = '1' THEN
+		etat <= (others => '0');
+	ELSIF h'event AND h='1' THEN
+		etat <= etat + 1;
+	END IF;
+	END PROCESS;
+	
+END archi_registre;

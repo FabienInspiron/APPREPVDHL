@@ -1,0 +1,12 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+architecture archi_alu of alu is
+	
+begin
+
+	case code_op is
+		when "000" => output <= op1 + op2;
+	
+	
+end architecture archi_alu;

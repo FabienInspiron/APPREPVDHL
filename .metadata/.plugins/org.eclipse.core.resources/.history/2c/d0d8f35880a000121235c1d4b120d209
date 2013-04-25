@@ -1,0 +1,12 @@
+library IEEE;
+use IEEE.numeric_bit.all;
+
+architecture archi_alu of alu is
+	
+begin
+	if code_op = "000" then -- Addition
+	else if code_op = "001" then -- soustraction
+	else if code_op = "010" then -- Not
+	else if code_op = "001" then
+	end if;
+end architecture archi_alu;

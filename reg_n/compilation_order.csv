@@ -1,0 +1,4 @@
+work, entity_reg_n.vhd
+work, testbench.vhd
+work, architecture_reg_n.vhd
+work, testbench_reg.vhd
